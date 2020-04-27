@@ -1,0 +1,23 @@
+{
+  "name": "stdgit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "./src/node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3Ccon/first-std-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3Ccon/first-std-1/issues"
+  },
+  "homepage": "https://github.com/3Ccon/first-std-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
