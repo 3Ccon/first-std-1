@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pois é</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/app.js"></script>
+    <script src="/backend.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="title">DreamBook</div>
+    <div id="list"> Active Users </div>
+    
+    <form action=""> Wellcome dreamer!
+        <input type="text" value="let it flow...">
+        <button>Send</button>
+    </form>
+    
+    <div id="chat">Messages</div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- SOCKET CLIENT SIDE -->
+    <script>
+        const socket = io();
+    </script>
+</body>
+</html>
